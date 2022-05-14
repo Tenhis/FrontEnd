@@ -38,7 +38,7 @@ function Download() {
 export default function Vastaustenraportointi(props) {
    
 
-    const url = 'http://localhost:8080/api/kyselyt'    
+    const url = 'https://thirdgearbcknd.herokuapp.com/api/kyselyt'    
     const [kyselyt, setKyselyt] = React.useState([]);
     
 

@@ -10,7 +10,7 @@ function App() {
     <BrowserRouter>    
         <Navbar />     
         <Routes>   
-        <Route path="/" element={ <Kyselyt />} />
+        <Route path="/" exact element={ <Kyselyt />} />
         <Route path="/raportit" element={<Vastaustenraportointi />} />     
         </Routes> 
     </BrowserRouter>     

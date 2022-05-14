@@ -10,7 +10,7 @@ export default function Kyselyt() {
     const [kyselyt, setKyselyt] = useState([]);
 
     useEffect(() => fetchData(), []);
-    const url = 'http://localhost:8080/api/kyselyt' 
+    const url = 'https://thirdgearbcknd.herokuapp.com/api/kyselyt' 
     
     
 
