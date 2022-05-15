@@ -30,7 +30,7 @@ const kyselynKysymykset = () =>{
                         'Content-Type': 'application/json' },
             body: JSON.stringify(kysely)
         };
-        fetch("http://localhost:8080/api/vastaukset", postOptions )
+        fetch("https://thirdgearbcknd.herokuapp.com/api/vastaukset", postOptions )
         .catch(err=>console.log(err))
 
 
